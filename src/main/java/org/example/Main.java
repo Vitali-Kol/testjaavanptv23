@@ -30,7 +30,7 @@ public class Main {
                 myYear[i][j] = random.nextInt(max - min + 1) + min;
             }
         }
-        
+            
         System.out.printf("%9s", " ");
         for (int i = 1; i <= 31; i++) {
             System.out.printf("%4d", i);
